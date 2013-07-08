@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/logo_neupic"
+    android:gravity="bottom" >
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="-5dp"
+        android:layout_weight="0.03"
+        android:background="#000000"
+        android:text="Regístrate"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.04"
+        android:background="#000000"
+        android:text="Ingresa"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
